@@ -9,7 +9,7 @@ http.createServer(function(req, res) {
     res.writeHead(200, {'Content-Type': 'text/xml'});
     console.log( new Date().toUTCString(), ': Delivering xml rss feed...');
     res.end(xml);   
-}).listen(8081);
+}).listen(28330);
 
 
-console.log('Server running at rdwyer.home.saturn.sfsrv.net:8081');
+console.log('Server running at rdwyer.home.saturn.sfsrv.net:28330');
