@@ -32,7 +32,7 @@ feedBuilder.buildFeed = function (feedOptions, items) {
     feed.item({
         description: 'description3',
         url: 'http://google.com/123/456/789',
-        guid: 'http://google.com/123/456/789'
+        guid: 'http://google.com/123/456/789',
         title: 'This should never change!',
         date: new Date(staticDate).toUTCString()
     });
