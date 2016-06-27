@@ -14,12 +14,12 @@ feedBuilder.feedOptions = {
 
 feedBuilder.items = [{
         description: 'description1',
-        url: 'http://www.nytimes.com/2016/06/02/unwelcome.html?partner=rss&emc=rss',
-        guid: 'http://www.nytimes.com/2016/06/02/unwelcome.html'
+        url: 'http://www.test.com',
+        guid: 'http://www.test.com/guid'
     }, {
         description: 'description2',
-        url: 'http://www.nytimes.com/2016/06/02/personaltech/photos.html?partner=rss&emc=rss',
-        guid: 'http://www.nytimes.com/2016/06/02/personaltech/photos.html'
+        url: 'http://www.test2.com',
+        guid: 'http://www.test2.com/guid'
     }];
     
 feedBuilder.buildFeed = function (feedOptions, items) {
@@ -31,8 +31,8 @@ feedBuilder.buildFeed = function (feedOptions, items) {
     });
     feed.item({
         description: 'description3',
-        url: 'http://google.com/123/789',
-        guid: 'http://google.com/123/789',
+        url: 'http://google.com/123',
+        guid: 'http://google.com/123',
         title: 'This should never change!',
         date: new Date(staticDate).toUTCString()
     });
