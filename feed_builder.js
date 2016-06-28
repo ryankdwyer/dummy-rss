@@ -14,12 +14,12 @@ feedBuilder.feedOptions = {
 
 feedBuilder.items = [{
         description: 'description1',
-        url: 'http://www.test14.com',
-        guid: 'http://www.test14.com/guid'
+        url: 'http://www.test16.com',
+        guid: 'http://www.test16.com/guid'
     }, {
         description: 'description2',
-        url: 'http://www.test15.com',
-        guid: 'http://www.test15.com/guid'
+        url: 'http://www.test17.com',
+        guid: 'http://www.test17.com/guid'
     }];
     
 feedBuilder.buildFeed = function (feedOptions, items) {
@@ -31,8 +31,8 @@ feedBuilder.buildFeed = function (feedOptions, items) {
     });
     feed.item({
         description: 'description3',
-        url: 'http://google.com/12345678901',
-        guid: 'http://google.com/12345678901',
+        url: 'http://google.com/123456789012',
+        guid: 'http://google.com/123456789012',
         title: 'This should never change!',
         date: new Date(staticDate).toUTCString()
     });
