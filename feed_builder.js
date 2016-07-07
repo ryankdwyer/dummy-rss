@@ -13,12 +13,12 @@ feedBuilder.feedOptions = {
 }
 
 feedBuilder.items = [{
-        url: 'http://www.test28.com',
-        guid: 'http://www.test28.com/guid',
+        url: 'http://www.test30.com',
+        guid: 'http://www.test30.com/guid',
         author: 'Ryan Dwyer'
     }, {
-        url: 'http://www.test29.com',
-        guid: 'http://www.test29.com/guid',
+        url: 'http://www.test31.com',
+        guid: 'http://www.test31.com/guid',
         author: 'Ryan Dwyer'
     }];
     
@@ -32,8 +32,8 @@ feedBuilder.buildFeed = function (feedOptions, items) {
     });
     feed.item({
         description: 'description3',
-        url: 'http://google.com/ABCDE',
-        guid: 'http://google.com/ABCDE',
+        url: 'http://google.com/ABCD',
+        guid: 'http://google.com/ABCD',
         title: 'This should never change!',
         date: new Date(staticDate).toUTCString()
     });
