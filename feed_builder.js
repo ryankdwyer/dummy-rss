@@ -13,21 +13,18 @@ feedBuilder.feedOptions = {
 }
 
 feedBuilder.items = [{
-        description: 'description1',
-        url: 'http://www.test26.com',
-        guid: 'http://www.test26.com/guid'
+        url: 'http://www.test28.com',
+        guid: 'http://www.test28.com/guid',
+        author: 'Ryan Dwyer'
     }, {
-        description: 'description2',
-        url: 'http://www.test27.com',
-        guid: 'http://www.test27.com/guid'
+        url: 'http://www.test29.com',
+        guid: 'http://www.test29.com/guid',
+        author: 'Ryan Dwyer'
     }];
     
 feedBuilder.buildFeed = function (feedOptions, items) {
     var feed = new RSS(feedOptions);
     items.forEach(function (item) {
-        var url = chance.url();
-        item.url = url;
-        item.guid = url;
         item.title = chance.name();
         item.description = chance.paragraph();
         item.date = new Date().toUTCString();
