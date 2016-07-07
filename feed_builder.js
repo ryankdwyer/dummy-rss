@@ -25,7 +25,11 @@ feedBuilder.items = [{
 feedBuilder.buildFeed = function (feedOptions, items) {
     var feed = new RSS(feedOptions);
     items.forEach(function (item) {
+        var url = chance.url();
+        item.url = url;
+        item.guid = url;
         item.title = chance.name();
+        item.description = chance.paragraph();
         item.date = new Date().toUTCString();
         feed.item(item);
     });
