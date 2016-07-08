@@ -13,12 +13,12 @@ feedBuilder.feedOptions = {
 }
 
 feedBuilder.items = [{
-        url: 'http://www.test30.com',
-        guid: 'http://www.test30.com/guid',
+        url: 'http://www.test32.com',
+        guid: 'http://www.test32.com/guid',
         author: 'Ryan Dwyer'
     }, {
-        url: 'http://www.test31.com',
-        guid: 'http://www.test31.com/guid',
+        url: 'http://www.test33.com',
+        guid: 'http://www.test33.com/guid',
         author: 'Ryan Dwyer'
     }];
     
@@ -33,17 +33,17 @@ feedBuilder.buildFeed = function (feedOptions, items) {
     feed.item({
         title: 'hey zeus christo',
         description: 'some guy',
-        url: 'http://bible.com',
-        guid: 'http://bible.com',
+        url: 'http://bible2.com',
+        guid: 'http://bible2.com',
         date: new Date().toUTCString()
     });
-    //feed.item({
-    //    description: 'description3',
-    //    url: 'http://google.com/ABCD',
-    //    guid: 'http://google.com/ABCD',
-    //    title: 'This should never change!',
-    //    date: new Date(staticDate).toUTCString()
-    //});
+    feed.item({
+        description: 'description3',
+        url: 'http://google.com/ABC',
+        guid: 'http://google.com/ABC',
+        title: 'This should never change!',
+        date: new Date(staticDate).toUTCString()
+    });
     //feed.item({
     //    description: 'Kathrina',
     //    url: 'http://www.aol.com',
