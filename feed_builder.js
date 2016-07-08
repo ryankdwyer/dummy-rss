@@ -6,19 +6,19 @@ var feedBuilder = {};
 var staticDate = 1466534277639;
 
 feedBuilder.feedOptions = {
-    title: 'Bloomberg Test',
+    title: 'Bloomberg Post Now',
     description: 'Simple test RSS feed with an updating pubDate field.',
     feed_url: '',
     site_url: ''
 }
 
 feedBuilder.items = [{
-        url: 'http://www.wpoeurtbb.com',
-        guid: 'http://www.wpoeurtbb.com',
+        url: 'http://www.apsiuoydfa.com',
+        guid: 'http://www.apsiuoydfa.com',
         author: 'Ryan Dwyer'
     }, {
-        url: 'http://www.qwerpoiaopiud.com',
-        guid: 'http://www.qwerpoiaopiud.com/guid',
+        url: 'http://www.qmnwbevrnqmbvewr.com',
+        guid: 'http://www.qmnwbevrnqmbvewr.com/guid',
         author: 'Ryan Dwyer'
     }];
     
@@ -31,17 +31,17 @@ feedBuilder.buildFeed = function (feedOptions, items) {
         feed.item(item);
     });
     feed.item({
-        title: '30 min test',
+        title: 'Post NOW NOW NOW',
         description: 'some guy',
-        url: 'http://asldkjfalskdjfasdfasdf.com',
-        guid: 'http://asldkjfalskdjfasdfasdf.com',
+        url: 'http://ykjhlhwekjhsdvjkhl.com',
+        guid: 'http://ykjhlhwekjhsdvjkhl.com',
         date: new Date().toUTCString()
     });
     feed.item({
         description: 'description3',
-        url: 'http://google.com/30mintest',
-        guid: 'http://google.com/30mintest',
-        title: 'This should never change! 30 min test',
+        url: 'http://google.com/postNowTest',
+        guid: 'http://google.com/postNowTest',
+        title: 'This should never change! Post Now test',
         date: new Date(staticDate).toUTCString()
     });
     //feed.item({
