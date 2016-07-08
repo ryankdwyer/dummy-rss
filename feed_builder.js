@@ -31,10 +31,10 @@ feedBuilder.buildFeed = function (feedOptions, items) {
     //    feed.item(item);
     //});
     feed.item({
-        title: 'hey there kathrina',
+        title: 'hey there please dont break',
         description: 'some guy',
-        url: 'http://bibleasldkjfalskdjf.com',
-        guid: 'http://bibleasldkjfalskdjf.com',
+        url: 'http://bibleasldkjfalskdjfasdfasdf.com',
+        guid: 'http://bibleasldkjfalskdjfasdfasdf.com',
         date: new Date().toUTCString()
     });
     //feed.item({
