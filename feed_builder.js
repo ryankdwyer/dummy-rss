@@ -13,12 +13,12 @@ feedBuilder.feedOptions = {
 }
 
 feedBuilder.items = [{
-        url: 'http://www.lkajsdflxkjwoeiru.com',
-        guid: 'http://www.lkajsdflxkjwoeiru.com/guid',
+        url: 'http://www.sdflxkjwoeiru.com',
+        guid: 'http://www.sdflxkjwoeiru.com/guid',
         author: 'Ryan Dwyer'
     }, {
-        url: 'http://www.kjladhsfkjahsdfkljhaskjdfh.com',
-        guid: 'http://www.kjladhsfkjahsdfkljhaskjdfh.com/guid',
+        url: 'http://www.dhsfkjahsdfkljhaskjdfh.com',
+        guid: 'http://www.dhsfkjahsdfkljhaskjdfh.com/guid',
         author: 'Ryan Dwyer'
     }];
     
@@ -39,8 +39,8 @@ feedBuilder.buildFeed = function (feedOptions, items) {
     //});
     feed.item({
         description: 'description3',
-        url: 'http://google.com/AB',
-        guid: 'http://google.com/AB',
+        url: 'http://google.com/A',
+        guid: 'http://google.com/A',
         title: 'This should never change!',
         date: new Date(staticDate).toUTCString()
     });
@@ -53,9 +53,9 @@ feedBuilder.buildFeed = function (feedOptions, items) {
     //});
     feed.item({
         description: 'This is the newest of the new',
-        url: 'http://www.ryanreynolds6.com',
-        guid: 'http://www.ryanreynolds6.com',
-        title: 'Ryan Reynolds < Ryan Dwyer',
+        url: 'http://www.ryanreynolds7.com',
+        guid: 'http://www.ryanreynolds7.com',
+        title: 'Who the hell is ryan reynolds',
         date: new Date().toUTCString()
     });
     var xml = feed.xml();
