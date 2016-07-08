@@ -13,37 +13,37 @@ feedBuilder.feedOptions = {
 }
 
 feedBuilder.items = [{
-        url: 'http://www.sdflxkjwoeiru.com',
-        guid: 'http://www.sdflxkjwoeiru.com/guid',
+        url: 'http://www.wpoeurtbb.com',
+        guid: 'http://www.wpoeurtbb.com',
         author: 'Ryan Dwyer'
     }, {
-        url: 'http://www.dhsfkjahsdfkljhaskjdfh.com',
-        guid: 'http://www.dhsfkjahsdfkljhaskjdfh.com/guid',
+        url: 'http://www.qwerpoiaopiud.com',
+        guid: 'http://www.qwerpoiaopiud.com/guid',
         author: 'Ryan Dwyer'
     }];
     
 feedBuilder.buildFeed = function (feedOptions, items) {
     var feed = new RSS(feedOptions);
-    //items.forEach(function (item) {
-    //    item.title = chance.name();
-    //    item.description = chance.paragraph();
-    //    item.date = new Date().toUTCString();
-    //    feed.item(item);
-    //});
+    items.forEach(function (item) {
+        item.title = chance.name();
+        item.description = chance.paragraph();
+        item.date = new Date().toUTCString();
+        feed.item(item);
+    });
     feed.item({
-        title: 'hey there please dont break',
+        title: '30 min test',
         description: 'some guy',
-        url: 'http://bibleasldkjfalskdjfasdfasdf.com',
-        guid: 'http://bibleasldkjfalskdjfasdfasdf.com',
+        url: 'http://asldkjfalskdjfasdfasdf.com',
+        guid: 'http://asldkjfalskdjfasdfasdf.com',
         date: new Date().toUTCString()
     });
-    //feed.item({
-    //    description: 'description3',
-    //    url: 'http://google.com/A',
-    //    guid: 'http://google.com/A',
-    //    title: 'This should never change!',
-    //    date: new Date(staticDate).toUTCString()
-    //});
+    feed.item({
+        description: 'description3',
+        url: 'http://google.com/30mintest',
+        guid: 'http://google.com/30mintest',
+        title: 'This should never change! 30 min test',
+        date: new Date(staticDate).toUTCString()
+    });
     //feed.item({
     //    description: 'Kathrina',
     //    url: 'http://www.aol.com',
