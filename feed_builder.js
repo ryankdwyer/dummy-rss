@@ -37,6 +37,13 @@ feedBuilder.buildFeed = function (feedOptions, items) {
         title: 'This should never change!',
         date: new Date(staticDate).toUTCString()
     });
+    feed.item({
+        description: 'Kathrina',
+        url: 'http://www.aol.com',
+        guid: 'http://www.aol.com',
+        title: 'This is that new new',
+        date: new Date().toUTCString()
+    });
     var xml = feed.xml();
     return xml;
 };
