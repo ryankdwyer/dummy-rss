@@ -24,26 +24,26 @@ feedBuilder.items = [{
     
 feedBuilder.buildFeed = function (feedOptions, items) {
     var feed = new RSS(feedOptions);
-    items.forEach(function (item) {
-        item.title = chance.name();
-        item.description = chance.paragraph();
-        item.date = new Date().toUTCString();
-        feed.item(item);
-    });
-    //feed.item({
-    //    title: 'hey zeus christo',
-    //    description: 'some guy',
-    //    url: 'http://bible2.com',
-    //    guid: 'http://bible2.com',
-    //    date: new Date().toUTCString()
+    //items.forEach(function (item) {
+    //    item.title = chance.name();
+    //    item.description = chance.paragraph();
+    //    item.date = new Date().toUTCString();
+    //    feed.item(item);
     //});
     feed.item({
-        description: 'description3',
-        url: 'http://google.com/A',
-        guid: 'http://google.com/A',
-        title: 'This should never change!',
-        date: new Date(staticDate).toUTCString()
+        title: 'hey there kathrina',
+        description: 'some guy',
+        url: 'http://bibleasldkjfalskdjf.com',
+        guid: 'http://bibleasldkjfalskdjf.com',
+        date: new Date().toUTCString()
     });
+    //feed.item({
+    //    description: 'description3',
+    //    url: 'http://google.com/A',
+    //    guid: 'http://google.com/A',
+    //    title: 'This should never change!',
+    //    date: new Date(staticDate).toUTCString()
+    //});
     //feed.item({
     //    description: 'Kathrina',
     //    url: 'http://www.aol.com',
@@ -51,13 +51,13 @@ feedBuilder.buildFeed = function (feedOptions, items) {
     //    title: 'This is that new new',
     //    date: 'Fri, 08 Jul 2016 15:05:40 GMT' 
     //});
-    feed.item({
-        description: 'This is the newest of the new',
-        url: 'http://www.ryanreynolds7.com',
-        guid: 'http://www.ryanreynolds7.com',
-        title: 'Who the hell is ryan reynolds',
-        date: new Date().toUTCString()
-    });
+    //feed.item({
+    //    description: 'This is the newest of the new',
+    //    url: 'http://www.ryanreynolds7.com',
+    //    guid: 'http://www.ryanreynolds7.com',
+    //    title: 'Who the hell is ryan reynolds',
+    //    date: new Date().toUTCString()
+    //});
     var xml = feed.xml();
     return xml;
 };
