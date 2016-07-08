@@ -13,23 +13,23 @@ feedBuilder.feedOptions = {
 }
 
 feedBuilder.items = [{
-        url: 'http://www.test32.com',
-        guid: 'http://www.test32.com/guid',
+        url: 'http://www.lkajsdflxkjwoeiru.com',
+        guid: 'http://www.lkajsdflxkjwoeiru.com/guid',
         author: 'Ryan Dwyer'
     }, {
-        url: 'http://www.test33.com',
-        guid: 'http://www.test33.com/guid',
+        url: 'http://www.kjladhsfkjahsdfkljhaskjdfh.com',
+        guid: 'http://www.kjladhsfkjahsdfkljhaskjdfh.com/guid',
         author: 'Ryan Dwyer'
     }];
     
 feedBuilder.buildFeed = function (feedOptions, items) {
     var feed = new RSS(feedOptions);
-    //items.forEach(function (item) {
-    //    item.title = chance.name();
-    //    item.description = chance.paragraph();
-    //    item.date = new Date().toUTCString();
-    //    feed.item(item);
-    //});
+    items.forEach(function (item) {
+        item.title = chance.name();
+        item.description = chance.paragraph();
+        item.date = new Date().toUTCString();
+        feed.item(item);
+    });
     //feed.item({
     //    title: 'hey zeus christo',
     //    description: 'some guy',
@@ -37,13 +37,13 @@ feedBuilder.buildFeed = function (feedOptions, items) {
     //    guid: 'http://bible2.com',
     //    date: new Date().toUTCString()
     //});
-    //feed.item({
-    //    description: 'description3',
-    //    url: 'http://google.com/ABC',
-    //    guid: 'http://google.com/ABC',
-    //    title: 'This should never change!',
-    //    date: new Date(staticDate).toUTCString()
-    //});
+    feed.item({
+        description: 'description3',
+        url: 'http://google.com/AB',
+        guid: 'http://google.com/AB',
+        title: 'This should never change!',
+        date: new Date(staticDate).toUTCString()
+    });
     //feed.item({
     //    description: 'Kathrina',
     //    url: 'http://www.aol.com',
@@ -53,8 +53,8 @@ feedBuilder.buildFeed = function (feedOptions, items) {
     //});
     feed.item({
         description: 'This is the newest of the new',
-        url: 'http://www.ryanreynolds5.com',
-        guid: 'http://www.ryanreynolds5.com',
+        url: 'http://www.ryanreynolds6.com',
+        guid: 'http://www.ryanreynolds6.com',
         title: 'Ryan Reynolds < Ryan Dwyer',
         date: new Date().toUTCString()
     });
