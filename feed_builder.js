@@ -35,8 +35,8 @@ feedBuilder.buildFeed = function (feedOptions, items) {
     //});
     feed.item({
         description: 'description3',
-        url: 'http://google.com/30min',
-        guid: 'http://google.com/30min',
+        url: 'http://google.com/30minuteTest',
+        guid: 'http://google.com/30minuteTest',
         title: 'This should never change! 30 min test test',
         date: new Date(staticDate).toUTCString()
     });
