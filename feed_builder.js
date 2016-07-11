@@ -13,12 +13,8 @@ feedBuilder.feedOptions = {
 }
 
 feedBuilder.items = [{
-        url: 'http://www.qwerlhjkasdf.com',
-        guid: 'http://www.qwerlhjkasdf.com',
-        author: 'Ryan Dwyer'
-    }, {
-        url: 'http://www.pioupoiucvasdf.com',
-        guid: 'http://www.pioupoiucvasdf.com/guid',
+        url: 'http://www.asdgoiuyasgiuoy.com',
+        guid: 'http://www.asdgoiuyasgiuoy.com',
         author: 'Ryan Dwyer'
     }];
     
@@ -30,13 +26,13 @@ feedBuilder.buildFeed = function (feedOptions, items) {
         item.date = new Date().toUTCString();
         feed.item(item);
     });
-    feed.item({
-        title: 'Post 30 minuter',
-        description: 'some guy',
-        url: 'http://jkhasdfhgqweryug.com',
-        guid: 'http://jkhasdfhgqweryug.com',
-        date: new Date().toUTCString()
-    });
+    //feed.item({
+    //    title: 'Post 30 minuter',
+    //    description: 'some guy',
+    //    url: 'http://jkhasdfhgqweryug.com',
+    //    guid: 'http://jkhasdfhgqweryug.com',
+    //    date: new Date().toUTCString()
+    //});
     feed.item({
         description: 'description3',
         url: 'http://google.com/30min',
