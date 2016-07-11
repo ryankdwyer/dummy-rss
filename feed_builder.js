@@ -13,16 +13,16 @@ feedBuilder.feedOptions = {
 }
 
 feedBuilder.items = [{
-        url: 'http://www.asuyfdguybqwe.com',
-        guid: 'http://www.asuyfdguybqwe.com',
+        url: 'http://www.adsfuihqwejb.com',
+        guid: 'http://www.adsfuihqwejb.com',
         author: 'Ryan Dwyer'
     }, {
-        url: 'http://www.yuasdfuybqwenb.com',
-        guid: 'http://www.yuasdfuybqwenb.com',
+        url: 'http://www.adsfiuqwerahjb.com',
+        guid: 'http://www.adsfiuqwerahjb.com',
         author: 'Ryan Dwyer'
     }, {
-        url: 'http://www.asuydfuygqweb.com',
-        guid: 'http://www.asuydfuygqweb.com',
+        url: 'http://www.qwerqweadsfadsf.com',
+        guid: 'http://www.qwerqweadsfadsf.com',
         author: 'Ryan Dwyer'
     }];
     
@@ -43,8 +43,8 @@ feedBuilder.buildFeed = function (feedOptions, items) {
     //});
     feed.item({
         description: 'description3',
-        url: 'http://google.com/30minuteTest123412',
-        guid: 'http://google.com/30minuteTest123412',
+        url: 'http://google.com/iouyadf78a6sdf789',
+        guid: 'http://google.com/iouyadf78a6sdf789',
         title: 'This should never change! 30 min test test',
         date: new Date(staticDate).toUTCString()
     });
