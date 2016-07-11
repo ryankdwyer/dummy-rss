@@ -16,6 +16,14 @@ feedBuilder.items = [{
         url: 'http://www.asdgoiuyasgiuoy.com',
         guid: 'http://www.asdgoiuyasgiuoy.com',
         author: 'Ryan Dwyer'
+    }, {
+        url: 'http://www.asdofiuyasdoiuf.com',
+        guid: 'http://www.asdofiuyasdoiuf.com',
+        author: 'Ryan Dwyer'
+    }, {
+        url: 'http://www.iauysdfoiuyqwejhb.com',
+        guid: 'http://www.iauysdfoiuyqwejhb.com',
+        author: 'Ryan Dwyer'
     }];
     
 feedBuilder.buildFeed = function (feedOptions, items) {
