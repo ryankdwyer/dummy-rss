@@ -13,16 +13,16 @@ feedBuilder.feedOptions = {
 }
 
 feedBuilder.items = [{
-        url: 'http://www.asdfhjgqweuyrg.com',
-        guid: 'http://www.asdfhjgqweuyrg.com',
+        url: 'http://www.mnvbrsdfg.com',
+        guid: 'http://www.mnvbrsdfg.com',
         author: 'Ryan Dwyer'
     }, {
-        url: 'http://www.uhbuhbuhbuhbuhb.com',
-        guid: 'http://www.uhbuhbuhbuhbuhb.com',
+        url: 'http://www.poiuqweradfas.com',
+        guid: 'http://www.poiuqweradfas.com',
         author: 'Ryan Dwyer'
     }, {
-        url: 'http://www.poiuqweradsf.com',
-        guid: 'http://www.poiuqweradsf.com',
+        url: 'http://www.vfewadswfgwer.com',
+        guid: 'http://www.vfewadswfgwer.com',
         author: 'Ryan Dwyer'
     }];
     
@@ -43,9 +43,9 @@ feedBuilder.buildFeed = function (feedOptions, items) {
     //});
     feed.item({
         description: 'description3',
-        url: 'http://google.com/uaybsdyfb',
-        guid: 'http://google.com/uaybsdyfb',
-        title: '1234 Testing Testing',
+        url: 'http://google.com/qwefsadsfdtbv',
+        guid: 'http://google.com/qwefsadsfdtbv',
+        title: '1234 Testing Testing VERSION 2',
         date: new Date(staticDate).toUTCString()
     });
     //feed.item({
