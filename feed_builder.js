@@ -28,12 +28,12 @@ feedBuilder.items = [{
     
 feedBuilder.buildFeed = function (feedOptions, items) {
     var feed = new RSS(feedOptions);
-    items.forEach(function (item) {
-        item.title = chance.name();
-        item.description = chance.paragraph();
-        item.date = new Date().toUTCString();
-        feed.item(item);
-    });
+    //items.forEach(function (item) {
+    //    item.title = chance.name();
+    //    item.description = chance.paragraph();
+    //    item.date = new Date().toUTCString();
+    //    feed.item(item);
+    //});
     //feed.item({
     //    title: 'Post 30 minuter',
     //    description: 'some guy',
@@ -41,20 +41,20 @@ feedBuilder.buildFeed = function (feedOptions, items) {
     //    guid: 'http://jkhasdfhgqweryug.com',
     //    date: new Date().toUTCString()
     //});
-    feed.item({
-        description: 'description3',
-        url: 'http://google.com/qwefsadsfdtbv',
-        guid: 'http://google.com/qwefsadsfdtbv',
-        title: '1234 Testing Testing VERSION 2',
-        date: new Date(staticDate).toUTCString()
-    });
     //feed.item({
-    //    description: 'Kathrina',
-    //    url: 'http://www.aol.com',
-    //    guid: 'http://www.aol.com',
-    //    title: 'This is that new new',
-    //    date: 'Fri, 08 Jul 2016 15:05:40 GMT' 
+    //    description: 'description3',
+    //    url: 'http://google.com/qwefsadsfdtbv',
+    //    guid: 'http://google.com/qwefsadsfdtbv',
+    //    title: '1234 Testing Testing VERSION 2',
+    //    date: new Date(staticDate).toUTCString()
     //});
+    feed.item({
+        description: 'The final',
+        url: 'http://www.qwerqwerasdfasdfasd.com',
+        guid: 'http://www.qwerqwerasdfasdfasd.com',
+        title: 'Knock on wood....',
+        date: new Date().toUTCString() 
+    });
     //feed.item({
     //    description: 'This is the newest of the new',
     //    url: 'http://www.ryanreynolds7.com',
