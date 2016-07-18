@@ -6,23 +6,23 @@ var feedBuilder = {};
 var staticDate = 1466534277639;
 
 feedBuilder.feedOptions = {
-    title: 'Bloomberg Prod Test 1',
+    title: 'Bloomberg Tracking Tags Test',
     description: 'Simple test RSS feed with an updating pubDate field.',
     feed_url: '',
     site_url: ''
 }
 
 feedBuilder.items = [{
-        url: 'http://www.adfasdfpoiuiuyoy.com',
-        guid: 'http://www.adfasdfpoiuiuyoy.com',
+        url: 'http://www.gfsdsfgsdwertwer.com',
+        guid: 'http://www.gfsdsfgsdwertwer.com',
         author: 'Ryan Dwyer'
     }, {
-        url: 'http://www.poiupoiupoiaudsfasdf.com',
-        guid: 'http://www.poiupoiupoiaudsfasdf.com',
+        url: 'http://www.adfasdfqewrqwe.com',
+        guid: 'http://www.adfasdfqewrqwe.com',
         author: 'Ryan Dwyer'
     }, {
-        url: 'http://www.xcvbxvciouyiouy.com',
-        guid: 'http://www.xcvbxvciouyiouy.com',
+        url: 'http://www.poopiuoiufdgsdfg.com',
+        guid: 'http://www.poopiuoiufdgsdfg.com',
         author: 'Ryan Dwyer'
     }];
     
@@ -36,9 +36,9 @@ feedBuilder.buildFeed = function (feedOptions, items) {
     });
     feed.item({
         description: 'The final',
-        url: 'http://www.vfvdvfyodsufygayugf.com',
-        guid: 'http://www.vfvdvfyodsufygayugf.com',
-        title: 'Knock on wood....',
+        url: 'http://www.asdfasdqwerqew.com',
+        guid: 'http://www.asdfasdqwerqew.com',
+        title: 'Will not edit....',
         date: new Date(staticDate).toUTCString() 
     });
     var xml = feed.xml();
