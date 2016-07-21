@@ -13,16 +13,16 @@ feedBuilder.feedOptions = {
 }
 
 feedBuilder.items = [{
-        url: 'http://www.iapdsoifuasdioupaois.com',
-        guid: 'http://www.iapdsoifuasdioupaois.com',
+        url: 'http://www.asdfasdfasdfasd.com',
+        guid: 'http://www.asdfasdfasdfasd.com',
         author: 'Ryan Dwyer'
     }, {
-        url: 'http://www.kaljhdfasjklhfsjhk.com',
-        guid: 'http://www.kaljhdfasjklhfsjhk.com',
+        url: 'http://www.sdsfsdfdfsdfsfsdsd.com',
+        guid: 'http://www.sdsfsdfdfsdfsfsdsd.com',
         author: 'Ryan Dwyer'
     }, {
-        url: 'http://www.adsfasdfasdiufoasdiu.com',
-        guid: 'http://www.adsfasdfasdiufoasdiu.com',
+        url: 'http://www.ertyertyertyerty.com',
+        guid: 'http://www.ertyertyertyerty.com',
         author: 'Ryan Dwyer'
     }];
     
@@ -36,8 +36,8 @@ feedBuilder.buildFeed = function (feedOptions, items) {
     });
     feed.item({
         description: 'The final',
-        url: 'http://www.vsdfvsdfvsdfv.com',
-        guid: 'http://www.vsdfvsdfvsdfv.com',
+        url: 'http://www.oiuyourityweruiyuioe.com',
+        guid: 'http://www.oiuyourityweruiyuioe.com',
         title: 'Will not edit....',
         date: new Date(staticDate).toUTCString() 
     });
