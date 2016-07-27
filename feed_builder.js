@@ -13,38 +13,32 @@ feedBuilder.feedOptions = {
 }
 
 feedBuilder.items = [{
-        url: 'http://www.bgdfgbdfgbdfgbdfgbdf.com',
-        guid: 'http://www.bgdfgbdfgbdfgbdfgbdf.com',
+        url: 'http://www.asdfasdfqwerqwerasdfasdfhjklkjh.com',
+        guid: 'http://www.asdfasdfqwerqwerasdfasdfhjklkjh.com',
         author: 'Ryan Dwyer',
-        title: 'This is the first title of the feed ',
-        date: new Date(staticDate).toUTCString()
     }, {
-        url: 'http://www.jklajlsdhfjkalhsdfkjlhasd.com',
-        guid: 'http://www.jklajlsdhfjkalhsdfkjlhasd.com',
+        url: 'http://www.vhjgsdfgsdoiufwert.com',
+        guid: 'http://www.vhjgsdfgsdoiufwert.com',
         author: 'Ryan Dwyer',
-        title: 'This is the second title of the feed ',
-        date: new Date(staticDate).toUTCString()
     }, {
-        url: 'http://www.vfsdfvsdfvsdfvsdfvsdf.com',
-        guid: 'http://www.vfsdfvsdfvsdfvsdfvsdf.com',
+        url: 'http://www.nhfghnfghnfghnfghnhg.com',
+        guid: 'http://www.nhfghnfghnfghnfghnhg.com',
         author: 'Ryan Dwyer',
-        title: 'This is the third title of the feed ',
-        date: new Date(staticDate).toUTCString()
     }];
     
 feedBuilder.buildFeed = function (feedOptions, items) {
     var feed = new RSS(feedOptions);
     items.forEach(function (item) {
-        //item.title = chance.name();
-        //item.description = chance.paragraph();
-        //item.date = new Date().toUTCString();
+        item.title = chance.name();
+        item.description = chance.paragraph();
+        item.date = new Date().toUTCString();
         feed.item(item);
     });
     feed.item({
         description: 'The final',
-        url: 'http://www.bbgsgbgfbdffgbdfgbdfg.com',
-        guid: 'http://www.bbgsgbgfbdffgbdfgbdfg.com',
-        title: 'This is the last title of the feed ',
+        url: 'http://www.poiupoiupoiausdfasdfasd.com',
+        guid: 'http://www.poiupoiupoiausdfasdfasd.com',
+        title: 'This will not and should not change... ',
         date: new Date(staticDate).toUTCString() 
     });
     var xml = feed.xml();
