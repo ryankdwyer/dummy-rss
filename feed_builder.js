@@ -16,32 +16,35 @@ feedBuilder.items = [{
         url: 'http://www.bgdfgbdfgbdfgbdfgbdf.com',
         guid: 'http://www.bgdfgbdfgbdfgbdfgbdf.com',
         author: 'Ryan Dwyer',
-        date: new Date().toUTCString()
+        title: 'This is the first title of the feed ',
+        date: new Date(staticDate).toUTCString()
     }, {
         url: 'http://www.jklajlsdhfjkalhsdfkjlhasd.com',
         guid: 'http://www.jklajlsdhfjkalhsdfkjlhasd.com',
         author: 'Ryan Dwyer',
-        date: new Date().toUTCString()
+        title: 'This is the second title of the feed ',
+        date: new Date(staticDate).toUTCString()
     }, {
         url: 'http://www.vfsdfvsdfvsdfvsdfvsdf.com',
         guid: 'http://www.vfsdfvsdfvsdfvsdfvsdf.com',
         author: 'Ryan Dwyer',
-        date: new Date().toUTCString()
+        title: 'This is the third title of the feed ',
+        date: new Date(staticDate).toUTCString()
     }];
     
 feedBuilder.buildFeed = function (feedOptions, items) {
     var feed = new RSS(feedOptions);
     items.forEach(function (item) {
-        item.title = chance.name();
-        item.description = chance.paragraph();
-        item.date = new Date().toUTCString();
+        //item.title = chance.name();
+        //item.description = chance.paragraph();
+        //item.date = new Date().toUTCString();
         feed.item(item);
     });
     feed.item({
         description: 'The final',
         url: 'http://www.bbgsgbgfbdffgbdfgbdfg.com',
         guid: 'http://www.bbgsgbgfbdffgbdfgbdfg.com',
-        title: 'This will not change....adfasdfasdfa',
+        title: 'This is the last title of the feed ',
         date: new Date(staticDate).toUTCString() 
     });
     var xml = feed.xml();
