@@ -13,18 +13,18 @@ feedBuilder.feedOptions = {
 }
 
 feedBuilder.items = [{
-        url: 'http://www.uyqiuwyeriuoyweiuyrquwei.com',
-        guid: 'http://www.uyqiuwyeriuoyweiuyrquwei.com',
+        url: 'http://www.poiuqoweiurqpoewiu.com',
+        guid: 'http://www.poiuqoweiurqpoewiu.com',
         author: 'Ryan Dwyer',
         date: new Date().toUTCString()
     }, {
-        url: 'http://www.ggfsfgsdfgsdfgsdfg.com',
-        guid: 'http://www.ggfsfgsdfgsdfgsdfg.com',
+        url: 'http://www.bgfdbasdfjhasdkjfh.com',
+        guid: 'http://www.bgfdbasdfjhasdkjfh.com',
         author: 'Ryan Dwyer',
         date: new Date().toUTCString()
     }, {
-        url: 'http://www.vvfsdvfsdfvsdfvsdfvsfd.com',
-        guid: 'http://www.vvfsdvfsdfvsdfvsdfvsfd.com',
+        url: 'http://www.asdfasdfsqwerqwerwerfasdfas.com',
+        guid: 'http://www.asdfasdfsqwerqwerwerfasdfas.com',
         author: 'Ryan Dwyer',
         date: new Date().toUTCString()
     }];
@@ -39,9 +39,9 @@ feedBuilder.buildFeed = function (feedOptions, items) {
     });
     feed.item({
         description: 'The final',
-        url: 'http://www.asdfasdfpoiuqweriouqwe.com',
-        guid: 'http://www.asdfasdfpoiuqweriouqwe.com',
-        title: 'Title Number Four',
+        url: 'http://www.pioqewrpoquwrouiqpoiuqweroiu.com',
+        guid: 'http://www.pioqewrpoquwrouiqpoiuqweroiu.com',
+        title: 'This will not change....7-27-16',
         date: new Date(staticDate).toUTCString() 
     });
     var xml = feed.xml();
