@@ -13,16 +13,16 @@ feedBuilder.feedOptions = {
 }
 
 feedBuilder.items = [{
-        url: 'http://www.asdfasdfqwerqwerasdfasdfhjklkjh.com',
-        guid: 'http://www.asdfasdfqwerqwerasdfasdfhjklkjh.com',
+        url: 'http://www.bgdfgbadsfadsfasdweqr.com',
+        guid: 'http://www.bgdfgbadsfadsfasdweqr.com',
         author: 'Ryan Dwyer',
     }, {
-        url: 'http://www.vhjgsdfgsdoiufwert.com',
-        guid: 'http://www.vhjgsdfgsdoiufwert.com',
+        url: 'http://www.lkasdfkjlhasdkjfhjkasd.com',
+        guid: 'http://www.lkasdfkjlhasdkjfhjkasd.com',
         author: 'Ryan Dwyer',
     }, {
-        url: 'http://www.nhfghnfghnfghnfghnhg.com',
-        guid: 'http://www.nhfghnfghnfghnfghnhg.com',
+        url: 'http://www.iueriutwerugsdfgsdf.com',
+        guid: 'http://www.iueriutwerugsdfgsdf.com',
         author: 'Ryan Dwyer',
     }];
     
@@ -36,9 +36,9 @@ feedBuilder.buildFeed = function (feedOptions, items) {
     });
     feed.item({
         description: 'The final',
-        url: 'http://www.poiupoiupoiausdfasdfasd.com',
-        guid: 'http://www.poiupoiupoiausdfasdfasd.com',
-        title: 'This will not and should not change... ',
+        url: 'http://www.poieriorqwerpoiqweir.com',
+        guid: 'http://www.poieriorqwerpoiqweir.com',
+        title: 'THIS ONE SHOULD STAY THE SAME',
         date: new Date(staticDate).toUTCString() 
     });
     var xml = feed.xml();
