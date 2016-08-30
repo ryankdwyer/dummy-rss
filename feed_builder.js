@@ -13,24 +13,24 @@ feedBuilder.feedOptions = {
 }
 
 feedBuilder.items = [{
-        url: 'http://www.vfsdfvsdfvsdfvdf.com',
-        guid: 'http://www.vfsdfvsdfvsdfvdf.com',
+        url: 'http://www.asdfasdfqwerqweropiuoiupoiu.com',
+        guid: 'http://www.asdfasdfqwerqweropiuoiupoiu.com',
         author: 'Ryan Dwyer',
     }, {
-        url: 'http://www.qqwwwqqqwsaassaas.com',
-        guid: 'http://www.qqwwwqqqwsaassaas.com',
+        url: 'http://www.bgdgbdfgbdfgbdfgbdfgbdfgbdfgb.com',
+        guid: 'http://www.bgdgbdfgbdfgbdfgbdfgbdfgbdfgb.com',
         author: 'Ryan Dwyer',
     }, {
-        url: 'http://www.sgsdfgsudfigsdiuyfgisouyfgui.com',
-        guid: 'http://www.sgsdfgsudfigsdiuyfgisouyfgui.com',
+        url: 'http://www.bdfbbbsfdbfsdbfbsfdsbfdbfsdbsfdbsdfsbdfbfdsbdfdsbf.com',
+        guid: 'http://www.bdfbbbsfdbfsdbfbsfdsbfdbfsdbsfdbsdfsbdfbfdsbdfdsbf.com',
         author: 'Ryan Dwyer',
     }];
     
 feedBuilder.buildFeed = function (feedOptions, items) {
     var feed = new RSS(feedOptions);
     items.forEach(function (item) {
-        item.title = chance.name() + "\n\n" + chance.name();
-        item.description = chance.paragraph() + "\n\n" + chance.paragraph();
+        item.title = chance.name() + "<br><br>" + chance.name();
+        item.description = chance.paragraph() + "<br><br>" + chance.paragraph();
         item.date = new Date().toUTCString();
         feed.item(item);
     });
