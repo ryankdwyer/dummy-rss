@@ -13,18 +13,18 @@ feedBuilder.feedOptions = {
 }
 
 feedBuilder.items = [{
-        url: 'http://www.kjnsdkjcnskjdcnkjsdncjn.com',
-        guid: 'http://www.kjnsdkjcnskjdcnkjsdncjn.com',
+        url: 'http://www.jkkjkjjkdsjkdskjdsjk.com',
+        guid: 'http://www.jkkjkjjkdsjkdskjdsjk.com',
         author: 'Ryan Dwyer',
         categories: ['label1', 'label2']
     }, {
-        url: 'http://www.kjncksjdnkjnsdkjlll.com',
-        guid: 'http://www.kjncksjdnkjnsdkjlll.com',
+        url: 'http://www.kjnsdkjnsduhuhuhuh.com',
+        guid: 'http://www.kjnsdkjnsduhuhuhuh.com',
         author: 'Ryan Dwyer',
         categories: ['label1', 'label3']
     }, {
-        url: 'http://www.kjnckjndjndjnsjnajnajn.com',
-        guid: 'http://www.kjnckjndjndjnsjnajnajn.com',
+        url: 'http://www.kjnckjnckjncdskjdkjqwqwq.com',
+        guid: 'http://www.kjnckjnckjncdskjdkjqwqwq.com',
         author: 'Ryan Dwyer',
         categories: ['label2', 'label4']
     }];
