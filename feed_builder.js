@@ -12,36 +12,36 @@ feedBuilder.feedOptions = {
     site_url: ''
 }
 
-//feedBuilder.items = [{
-//        url: 'http://www.kjnsdkjnskjnkjndjnjn.com',
-//        guid: 'http://www.kjnsdkjnskjnkjndjnjn.com',
-//        author: 'Ryan Dwyer',
-//        categories: ['label1', 'label2']
-//    }, {
-//        url: 'http://www.kjsdjksdjkewuweuew.com',
-//        guid: 'http://www.kjsdjksdjkewuweuew.com',
-//        author: 'Ryan Dwyer',
-//        categories: ['label1', 'label3']
-//    }, {
-//        url: 'http://www.kjnskdjnkjnwekjnkjsndkjn.com',
-//        guid: 'http://www.kjnskdjnkjnwekjnkjsndkjn.com',
-//        author: 'Ryan Dwyer',
-//        categories: ['label2', 'label4']
-//    }];
-
 feedBuilder.items = [{
-        url: 'http://www.ckjsdkjsdkjskjsdkj.com',
-        guid: 'http://www.ckjsdkjsdkjskjsdkj.com',
-        author: 'Ryan Dwyer'
+        url: 'http://www.ksjnkjndkjnfjnjnjn.com',
+        guid: 'http://www.ksjnkjndkjnfjnjnjn.com',
+        author: 'Ryan Dwyer',
+        categories: ['label1', 'label2']
     }, {
-        url: 'http://www.kjcnkjnskjnowewoioi.com',
-        guid: 'http://www.kjcnkjnskjnowewoioi.com',
-        author: 'Ryan Dwyer'
+        url: 'http://www.kjnsdkjnkjngfkjnfjnfjnfjnfjn.com',
+        guid: 'http://www.kjnsdkjnkjngfkjnfjnfjnfjnfjn.com',
+        author: 'Ryan Dwyer',
+        categories: ['label1', 'label3']
     }, {
-        url: 'http://www.kjnckjndoqoiqwoioi.com',
-        guid: 'http://www.kjnckjndoqoiqwoioi.com',
-        author: 'Ryan Dwyer'
+        url: 'http://www.kjsdkjallalalalalksksk.com',
+        guid: 'http://www.kjsdkjallalalalalksksk.com',
+        author: 'Ryan Dwyer',
+        categories: ['label2', 'label4']
     }];
+
+//feedBuilder.items = [{
+//        url: 'http://www.ckjsdkjsdkjskjsdkj.com',
+//        guid: 'http://www.ckjsdkjsdkjskjsdkj.com',
+//        author: 'Ryan Dwyer'
+//    }, {
+//        url: 'http://www.kjcnkjnskjnowewoioi.com',
+//        guid: 'http://www.kjcnkjnskjnowewoioi.com',
+//        author: 'Ryan Dwyer'
+//    }, {
+//        url: 'http://www.kjnckjndoqoiqwoioi.com',
+//        guid: 'http://www.kjnckjndoqoiqwoioi.com',
+//        author: 'Ryan Dwyer'
+//    }];
     
 feedBuilder.buildFeed = function (feedOptions, items) {
     var feed = new RSS(feedOptions);
