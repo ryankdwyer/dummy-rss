@@ -13,18 +13,18 @@ feedBuilder.feedOptions = {
 }
 
 feedBuilder.items = [{
-        url: 'http://www.1234asdfasdf1234123asdfasdf.com',
-        guid: 'http://www.1234asdfasdf1234123asdfasdf.com',
+        url: 'http://www.kjncksdjncskjnsdkjcnsdkjcnsdkjcn.com',
+        guid: 'http://www.kjncksdjncskjnsdkjcnsdkjcnsdkjcn.com',
         author: 'Ryan Dwyer',
         categories: ['label1', 'label2']
     }, {
-        url: 'http://www.kjsdnakjhskdljfajklhdflkjhaskdjllakjsd.com',
-        guid: 'http://www.kjsdnakjhskdljfajklhdflkjhaskdjllakjsd.com',
+        url: 'http://www.kjndskcjnskjdcnjskdnwekjrnwkejnrkjwenjkn.com',
+        guid: 'http://www.kjndskcjnskjdcnjskdnwekjrnwkejnrkjwenjkn.com',
         author: 'Ryan Dwyer',
         categories: ['label1', 'label3']
     }, {
-        url: 'http://www.dkjsnckjsndkjcnsdkjncskjdncjknsdkjcn234324.com',
-        guid: 'http://www.dkjsnckjsndkjcnsdkjncskjdncjknsdkjcn234324.com',
+        url: 'http://www.kjsndkjfnkjnqwjeqwnekjnqwejknksjdfnkjsdnfjksdnfjkn.com',
+        guid: 'http://www.kjsndkjfnkjnqwjeqwnekjnqwejknksjdfnkjsdnfjksdnfjkn.com',
         author: 'Ryan Dwyer',
         categories: ['label2', 'label4']
     }];
