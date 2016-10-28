@@ -6,25 +6,25 @@ var feedBuilder = {};
 var staticDate = 1466534277639;
 
 feedBuilder.feedOptions = {
-    title: 'White space for new client - Liftable',
+    title: 'White space and Label Test - Prod - 10/28/16',
     description: 'Test for keeping whtie space',
     feed_url: '',
     site_url: ''
 }
 
 feedBuilder.items = [{
-        url: 'http://www.kjncksdjncskjnsdkjcnsdkjcnsdkjcn.com',
-        guid: 'http://www.kjncksdjncskjnsdkjcnsdkjcnsdkjcn.com',
+        url: 'http://www.sdkjncskdjcnksjdncksjdnckjndskjn.com',
+        guid: 'http://www.sdkjncskdjcnksjdncksjdnckjndskjn.com',
         author: 'Ryan Dwyer',
         categories: ['label1', 'label2']
     }, {
-        url: 'http://www.kjndskcjnskjdcnjskdnwekjrnwkejnrkjwenjkn.com',
-        guid: 'http://www.kjndskcjnskjdcnjskdnwekjrnwkejnrkjwenjkn.com',
+        url: 'http://www.dkjnsdkjcnskjdnckjsdnckjsdnkjn.com',
+        guid: 'http://www.dkjnsdkjcnskjdnckjsdnckjsdnkjn.com',
         author: 'Ryan Dwyer',
         categories: ['label1', 'label3']
     }, {
-        url: 'http://www.kjsndkjfnkjnqwjeqwnekjnqwejknksjdfnkjsdnfjksdnfjkn.com',
-        guid: 'http://www.kjsndkjfnkjnqwjeqwnekjnqwejknksjdfnkjsdnfjksdnfjkn.com',
+        url: 'http://www.skdjncksjdnckjsdnckjnsdkjcnsdkjcnkjsdnckjsn.com',
+        guid: 'http://www.skdjncksjdnckjsdnckjnsdkjcnsdkjcnkjsdnckjsn.com',
         author: 'Ryan Dwyer',
         categories: ['label2', 'label4']
     }];
